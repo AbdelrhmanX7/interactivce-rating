@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+    width: 100vw; height: 100vh;
+    display: flex;
+    justify-content: center; align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+main {
+    width: 350px;
+    height: 390px;
+}
+.review-page {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px 24px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.main-continer {
+    width: 45px; height: 45px;
+    border-radius: 50%;
+    background-color: hsla(217, 12%, 63%, 0.102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-continer > img {
+    width: 15px; height: 15px;
+}
+.header-text {
+    font-size: 26px;
+    font-weight: 500;
+    color:  white;
+}
+.desc-text {
+    color: hsl(217, 12%, 63%);
+    font-size: 13px;
+    line-height: 1.7;
+}
+.main-numbers {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+}
+.nc:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.submit-btn {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.result-page {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(213, 19%, 18%);
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px 24px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+}
+.result-page > img {
+    margin: 0px auto;
+    width: 150px; height: 100px;
+}
+.result-continer {
+    width: fit-content;
+    margin: 0px auto;
+    padding: 10px;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    background-color: hsla(217, 12%, 63%, 0.102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.result-page > .desc-text {
+    font-size: 15px;
+}
